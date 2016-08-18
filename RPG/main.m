@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Character.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Character *player = [[Character alloc]initWithPlayerName: @"John Doe"
+                                                       classType:@"Mage"];
+        
+        NSLog(@"%@", [player name]);
+        NSLog(@"%@", [player classType]);
     }
     return 0;
 }
