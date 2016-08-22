@@ -8,14 +8,27 @@
 
 #import <Foundation/Foundation.h>
 #import "Character.h"
+#import <limits.h>
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Character *player = [[Character alloc]initWithPlayerName: @"John Doe"
-                                                       classType:@"Mage"];
+        int errorCode = 0;
+        char name[100] = "\0";
+        fpurge(stdin);
+        printf("Enter your name: ");
+        scanf("%[^\n]s", name);
         
+        
+        
+
+        
+        Character *player = [[Character alloc]initWithPlayerName: @(name)
+                                                       classType: classType];
+        
+        //player.nameLength(name);
         NSLog(@"%@", [player name]);
         NSLog(@"%@", [player classType]);
     }
     return 0;
 }
+
