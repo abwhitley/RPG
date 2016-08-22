@@ -16,7 +16,6 @@ typedef enum rpgClasses{
     ClassFirst = ClassKnight,
     ClassLast = ClassMage
 }rpgClasses;
-rpgClasses classChosen = ClassNull;
 
 
 @interface Character : NSObject{

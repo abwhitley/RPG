@@ -10,27 +10,25 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RPG/main.m"
-            timestampString = "493525957.419533"
+            timestampString = "493590521.580517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "main()"
-            landmarkType = "9">
+            startingLineNumber = "91"
+            endingLineNumber = "91">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Character.m"
-            timestampString = "493527715.523605"
+            timestampString = "493590521.580517"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "@implementation Character"
             landmarkType = "3">
          </BreakpointContent>
